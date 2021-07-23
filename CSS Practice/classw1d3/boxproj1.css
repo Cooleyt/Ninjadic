@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+#painting{
+    margin: 20px auto 10px;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.fullHeight{
+    height: 100%
+}
+
+#topHalf{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottomHalf{
+    height: 25%;
+    background-color: blue;
+    justify-content: space-between;
+    display: flex;
+}
+
+#topLeftColum{
+    width: 22%;
+    background-color: forestgreen;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#bigRed{
+    width: 73%;
+    background-color: red;
+}
+
+.whiteBox{
+    background-color: whitesmoke;
+}
+
+#topOfColumn{
+    height: 42%;
+}
+
+#bottomOfColumn{
+    height: 50%;
+}
+
+#blueBox{
+    width: 22%;
+    background-color: blue;
+
+}
+
+#whiteLong{
+    width: 60%;
+}
+
+#smallColumn{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#smallWhite{
+    height: 40%;
+}
+
+#yellowBox{
+    height: 40%;
+    background-color: yellow;
+}
