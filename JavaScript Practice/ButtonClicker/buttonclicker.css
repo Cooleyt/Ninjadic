@@ -1,0 +1,104 @@
+nav{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.navBar{
+    background-color: grey;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 90px;
+}
+
+.navBar input[type=text] {
+    height: 10px;
+    width: 40%;
+    padding: 6px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+
+#button{
+    background-color: darkcyan;
+    box-shadow: 4px solid black;
+    height: 50px;
+    width: 50px;
+    justify-content: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.box1 {
+    height: 220px;
+    width: 70%;
+    margin: 10px auto;
+    border: 5px solid black;
+    display: flex;
+}
+
+#likeButton {
+    background-color: orange;
+    box-shadow: 20px solid black;
+    border: 3px solid black;
+    height: 50px;
+    width: 65px;
+}
+
+.leftSide{
+    height: 89%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 40px; */
+}
+
+.leftSide > h1, .leftSide > h3, .leftSide > h5{
+    margin: 0px;
+    padding: 0px;
+}
+
+#text {
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 40px;
+    
+}
+
+.box2 {
+    height: auto;
+    width: 400px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+#defButton{
+    background-color: greenyellow;
+    box-shadow: 6px solid black;
+    height: 50px;
+    width: 70%;
+    white-space: nowrap;
+}
