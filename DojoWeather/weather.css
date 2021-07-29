@@ -52,7 +52,7 @@
     align-items: center;
     justify-content:space-evenly;
     margin: 25px;
-    padding: 25px;
+    padding: 15px;
 }
 
 .today{
@@ -83,6 +83,7 @@ img{
     width: 165px;
     height: 165px;
     border-radius: 100%;
+    margin: 15px;
 
 }
 
@@ -93,6 +94,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 #degree1{
@@ -118,4 +120,8 @@ img{
 button{
     background-color: darkturquoise;
     box-shadow: 3px solid black;
+}
+
+.descriptons{
+    text-align: center;
 }
