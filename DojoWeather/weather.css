@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.navBar{
+    background-color: deepskyblue;
+    height: 75px;
+    width: auto;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#leftNav{
+    color: white;
+    font-size: large;
+    justify-content: left;
+}
+
+#rightNav{
+    color: white;
+    font-size: medium;
+    display: flex;
+    gap: 68px;
+}
+
+.navBar2{
+    max-width: 80%;
+    border-bottom: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 20px;
+}
+
+#leftNav2{
+    justify-content: left;
+}
+
+#rightNav2{
+    justify-content: right;
+}
+
+.weatherDays{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 25px;
+    padding: 25px;
+}
+
+.today{
+    background-color: lightgray;
+    height: 300px;
+    width: 200px;
+}
+
+.tomorrow{
+    background-color: lightgray;
+    height: 300px;
+    width: 200px;
+}
+
+.friday{
+    background-color: lightgray;
+    height: 300px;
+    width: 200px;
+}
+
+.saturday{
+    background-color: lightgray;
+    height: 300px;
+    width: 200px;
+}
+
+img{
+    width: 165px;
+    height: 165px;
+    border-radius: 100%;
+
+}
+
+.degree{
+    height: 50px;
+    width: 100px;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#degree1{
+    color: red;
+}
+
+#degree2{
+    color: blue;
+}
+
+.cookieOverlay{
+    height: auto;
+    width: 80%;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+button{
+    background-color: darkturquoise;
+    box-shadow: 3px solid black;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+    <div class = "navBar">
+        <div id = "leftNav">
+            <h1>DojoWeather</h1>
+        </div>
+
+        <div id="rightNav">
+            <h2 img onclick="Alert()">Burbank</h2>
+            <h2 img onclick="Alert()">Chicago</h2>
+            <h2 img onclick="Alert()">Dallas</h2>
+        </div>
+    </div>
+    
+    <div class = "navBar2">
+        <div id= "leftNav2">
+            <h1>San Jose</h1>
+        </div>
+
+        <div id ="rightNav2">
+            show temperature in 
+            <select>
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="weatherDays">
+        <div class = "today">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt = "some rain">
+            <h4>some rain</h4>
+                <div class= "degree">
+                    <div id ="degree1">24°
+                    </div>
+            
+                    <div id ="degree2">18°
+                    </div>
+                </div>
+        </div>
+
+        <div class = "tomorrow">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png" alt="some sun">
+            <h4>some sun</h4>
+                <div class= "degree">
+                    <div id ="degree1">27°
+                    </div>
+            
+                    <div id ="degree2">19°
+                    </div>
+                </div>
+        </div>
+
+        <div class = "friday">
+            <h3>Friday</h3>
+            <img src ="assets/some_clouds.png" alt ="some clouds">
+            <h4>some clouds</h4>
+                <div class= "degree">
+                    <div id ="degree1">21°
+                    </div>
+            
+                    <div id ="degree2">16°
+                    </div> 
+                </div>
+        </div>
+
+        <div class = "saturday">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png" alt="some sun">
+            <h4>some sun</h4>
+                <div class= "degree">
+                    <div id ="degree1">26°
+                    </div>
+            
+                    <div id ="degree2">12°
+                    </div>
+                </div>
+        </div>
+
+    <div onclick ="style.display ='none'" class="cookieOverlay">
+        <img src = "assets/cookie.png" alt = "cookie">
+        <h1>Stop! Cookie time</h1>
+        <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href = "#">Read more...</a></p>
+        <button onclick ="style.display ='none'">I Accept</button>
+    </div>
+</div>
+    <script src= "weather.js"></script>
+</body>
+</html>
