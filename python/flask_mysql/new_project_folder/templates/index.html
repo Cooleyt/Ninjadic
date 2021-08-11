@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USERS</title>
+</head>
+
+<style>
+    table, th {
+    border: 1px solid black;
+}
+</style>
+<body>
+    <h1>All My Users</h1>
+    <table>
+        <thead>
+            <tr>
+            <th><p>First Name:</p></th>
+            <th><p>Last Name:</p></th>
+            <th><p>Email:</p></th>
+            </tr>
+        </thead>
+        
+{% for one_user in users %}
+
+<tr>
+    <th>{{one_user.first_name}}</th>
+    <th>{{one_user.last_name}}</th>
+    <th>{{one_user.email}}</th>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
