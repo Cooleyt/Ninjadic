@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id= "navBar">
+        <h1 id="logo">Gaming<span>Dojo</span></h1>
+        <div id= "navRight">
+            <select>
+                <option>Euro €</option>
+                <option>USD $</option>
+            </select>
+            <div>
+                <img src="images/cart-light.png" alt="shopping cart">
+                <a href="#"><h3 id ="cartNumber">0</h3></a>
+            </div>
+            <img src="images/search-light.png" alt ="search light">
+        </div>
+    </div>
+
+    <div id="container">
+        <h3>Highlights</h3>
+        <div id="scrollingBanner">
+            <img class= "Arrow" onclick = "changeBanner()" src="images/chevron-left.png" alt = "leftArrow">
+            <img id = "mainBanner" src="images/stonepunk.png" alt ="stonePunk">
+            <img id ="rightArrow" onclick = "changeBanner()" class = "arrow" src="images/chevron-left.png" alt = "rightArrow">
+        </div>
+        <div id="bannerPages">
+            <div class="pageIcon"></div>
+            <div id="purpleBar" class="pageIcon"></div>
+            <div class="pageIcon"></div>
+            <div class="pageIcon"></div>
+        </div>
+            <div id="gameListings">
+            <div class="gameBox">
+                <img class ="smallBanner" src="images/cafe-neko.png" alt ="cafer neko">
+                <h3>Cafe Neko: Gold Edition</h3>
+                <img class="platformIcon" src="images/windows.png" alt="windows">
+                <img class="platformIcon" src="images/apple.png" alt ="mac os">
+                <div class="priceBox">
+                    <h4 class="discount">-20%</h4>
+                    <div class= "prices">
+                        <h4><s>€14.98</s></h4>
+                        <h4>$10.49</h4>
+                    </div>
+                    <button onclick="addToCart()" class="buyButton">BUY</button>
+                </div>
+            </div>
+                <div class="gameBox">
+                    <img class ="smallBanner" src="images/cafe-neko.png" alt ="cafer neko">
+                    <h3>Cafe Neko: Gold Edition</h3>
+                    <img class="platformIcon" src="images/windows.png" alt="windows">
+                    <img class="platformIcon" src="images/apple.png" alt ="mac os">
+                    <div class="priceBox">
+                        <h4 class="discount">-20%</h4>
+                        <div class= "prices">
+                            <h4><s>€14.98</s></h4>
+                            <h4>$10.49</h4> 
+                        </div>
+                        <button onclick="addToCart()" class="buyButton">BUY</button>
+                    </div>
+                </div>
+                    <div class="gameBox">   
+                        <img class ="smallBanner" src="images/cafe-neko.png" alt ="cafer neko">
+                        <h3>Cafe Neko: Gold Edition</h3>
+                        <img class="platformIcon" src="images/windows.png" alt="windows">
+                        <img class="platformIcon" src="images/apple.png" alt ="mac os">
+                        <img onclick="linuxAlert()" class="platformIcon" src="images/linux.png" alt="linus">
+                        <div class="priceBox">
+                            <h4 class="discount">-20%</h4>
+                            <div class= "prices">
+                                <h4><s>€14.98</s></h4>
+                                <h4>$10.49</h4>
+                            </div>
+                            <button onclick="addToCart()" class="buyButton">BUY</button>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>s

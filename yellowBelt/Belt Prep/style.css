@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+#navBar {
+    width: auto;
+    height: 75px;
+    background-color: black;
+    border-top: 5px solid rgb(117, 27, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+#container {
+    width: 80%;
+    height: 85vh;
+    margin: 0px auto;
+}
+
+#logo {
+    font-size: 35px;
+    color: white;
+}
+
+#logo > span{
+    color: blueviolet;
+}
+
+#navRight {
+    width: 250px;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navRight > div {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#navRight > div > a {
+    color: white;
+}
+
+#scrollingBanner {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#bannerPages {
+    height: 10%;
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#gameListings {
+    height: 46%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainBanner{
+    max-height: 100%;
+    max-width: 82%;
+}
+
+#rightArrow{
+    transform: rotate(180deg);
+}
+
+.pageIcon{
+    width: 20%;
+    height: 7px;
+    background-color: rgb(53, 53, 53);
+}
+
+#purpleBar{
+    background-color: rgb(117, 27, 219);
+}
+
+.gameBox{
+    width: 30%;
+}
+
+.smallBanner{
+    width: 100%;;
+}
+
+.platformIcon{
+    height: 40px;
+}
+
+.priceBox{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount{
+    height: 80%;
+    width: 28%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.prices{
+    color: gray;
+}
+
+.buyButton{
+    height: 80%;
+    width: 28%;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+}

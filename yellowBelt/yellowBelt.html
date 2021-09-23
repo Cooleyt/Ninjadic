@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="yellowBelt.css">
+</head>
+<body>
+    <div id="navBar">
+        <div id= "navBarLeft">
+            <img src ="images/assets/leaf.png" alt="leaf">
+            <h1>EasyBay</h1>
+        </div>
+
+        <div class="searchBar">    
+            <input type="text" placeholder="Search for anything">
+        </div>
+
+        <div id = "navBarRight">
+            <h4>Sign In</h4>
+            <img onclick="cartAlert()" src ="images/assets/cart-dark.png" alt= "cart">
+        </div>
+    </div>
+
+    <div class="bottomNav">
+        <h3>Aeonium</h3>
+        <h3>Andormischus</h3>
+        <h3>Agave</h3>
+        <h3>Aloe</h3>
+        <h3>Anacampseros</h3>
+        <h3>Aristaloe</h3>
+        <h3>More...</h3>
+    </div>
+
+    <h2>Your Source for Serious Succulent Specialties</h2>
+
+    <div class = "topBox1">
+        <div id ="box1">
+            <h1>Discover succulent varieties one pot at a time!</h1>
+            <h1>Discover<img src = "images/assets/arrow-light.png" alt = "arrow-light"></h1>
+        </div>
+
+        <div id ="box2">
+            <img onmouseover="photoHover(this)" onmouseout="photoHover(this)" src ="images/assets/succulents-1.jpg" alt = "succulents-1">
+
+        </div>
+
+    <div class = "topBox2">
+        <div id ="box3">
+            <img src="images/assets/aloe-m.jpg" alt = "aloe-m">
+        </div>
+
+        <div id ="box4">
+            Soothing aloe <img src = "images/assets/arrow-light.png" alt = "arrow-light">
+        </div>
+    </div>
+    </div>
+    
+    <div class = "bottomBox">
+            <img src = "images/assets/aeonium-s.jpg" alt = "aeonium-s">
+            <img src = "images/assets/aloe-s.jpg" alt = "aloe-s">
+            <img src = "images/assets/cactus-s.jpg" alt = "cactus-s">
+            <img src = "images/assets/echeveria-s.jpg" alt = "echeveria-s">
+            <img src = "images/assets/sedum-s.jpg" alt = "sedum-s">
+            <img src = "images/assets/sempervivum-s.jpg" alt = "sempervivum-s">
+    </div>  
+
+    <div class = "bottomBox2">
+        <div id = "bottomNames">
+                <h3>Aeonium</h3>
+                <h3>Aloe</h3>
+                <h3>Cactus</h3>
+                <h3>Echeveria</h3>
+                <h3>Sedum</h3>
+                <h3>Sempervivum</h3>
+        </div>
+    </div>
+
+    <div onclick ="style.display ='none'" class="cookieOverlay">
+        <img src = "images/assets/alert-dark.png" alt = "alert">
+        <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href = "#">cookie policy.</a></p>
+        <button onclick ="style.display ='none'">I Accept</button>
+    </div>
+
+    <script src="yellowBelt.js"></script>
+</body>
+</html>
