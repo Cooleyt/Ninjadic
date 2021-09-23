@@ -62,3 +62,62 @@ michael.make_deposit(100).make_deposit(200).make_withdrawal(1000).make_deposit(2
 anna.make_deposit(1000).make_withdrawal(2000).make_deposit(2000).make_withdrawal(2000).make_withdrawal(100).make_withdrawal(200).transfer_money(michael, 500)
 
 print(anna.display_user_balance())
+
+
+##class RetirementAccount(BankAccount):
+    # def __init__(self, int_rate, is_roth, balance=0):
+    # 	super().__init__(int_rate, balance)	
+    #     self.is_roth = is_roth	
+
+    ##class BankAccount:
+    # def __init__(self, int_rate, balance=0):
+    #     self.int_rate = int_rate
+    #     self.balance = balance
+
+
+    # class RetirementAccount(BankAccount):
+    # def withdraw(self, amount, is_early):
+    # 	if is_early:
+    # 	    amount = amount * 1.10
+    # 	if (self.balance - amount) > 0:
+    # 	    self.balance -= amount
+    #     else:
+    # 	    print("INSUFFICIENT FUNDS")
+    # 	return self
+
+
+# class BankAccount:
+#     def withdraw(self, amount):
+#     	if (self.balance - amount) > 0:
+#     	    self.balance -= amount
+#         else:
+#     	    print("INSUFFICIENT FUNDS")
+#     	return self
+    
+#Hopefully you recognize the repetitiveness here and want to reduce it! So let's call on the parent to do the part of the code that is the same:
+    # class RetirementAccount(BankAccount):
+    # def withdraw(self, amount, is_early):
+    # 	if is_early:
+    # 	    amount = amount * 1.10
+    # 	super().withdraw(amount)
+    # 	return self
+
+    # class BankAccount:
+    # def withdraw(self, amount):
+    # 	if (self.balance - amount) > 0:
+    # 	    self.balance -= amount
+    #     else:
+    # 	    print("INSUFFICIENT FUNDS")
+    # 	return self
+
+
+    
+
+
+    
+
+
+
+
+
+
